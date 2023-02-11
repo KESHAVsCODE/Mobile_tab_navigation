@@ -24,7 +24,10 @@ main.home-screen{
     max-width: 100%;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    
+}
+p{
+    font-size: 0.750rem;
+    padding: 0.250rem;
 }
 .bottom-navbar > ul{
     font-family: inherit;
@@ -39,8 +42,9 @@ main.home-screen{
     justify-content: space-between;
     padding: 0.875rem;
 }
-p{
-    font-size: 0.750rem;
-    padding: 0.250rem;
+
+.bottom-navbar li:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
 
